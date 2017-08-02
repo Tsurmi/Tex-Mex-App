@@ -3,12 +3,12 @@
 
   const NavBar = () => {
     return (
-      <div>
-        <ul className="NavBar">
-          <li> <Link to="/"> Home </Link> </li>
-          <li> <Link to="/Menu"> Menu </Link> </li>
-          <li> <Link to="/About"> About </Link> </li>
-          <li> <Link to="/Contacts"> Contacts </Link> </li>
+      <div className="navBar">
+        <ul className="navLinks">
+          <li> <Link className="Link" to="/"> Home </Link> </li>
+          <li> <Link className="Link" to="/Menu"> Menu </Link> </li>
+          <li> <Link className="Link" to="/About"> About </Link> </li>
+          <li> <Link className="Link" to="/Contacts"> Contacts </Link> </li>
         </ul>
       </div>
     )

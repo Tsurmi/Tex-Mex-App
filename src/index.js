@@ -8,7 +8,7 @@ import App from './App';
 import Home from './containers/HomeContainer';
 import Menu from './components/Menu';
 import About from './components/About';
-import Contacts from './containers/ContactsContainer';
+import Contacts from './components/Contacts';
 
 ReactDOM.render(
   <Router history={browserHistory}>

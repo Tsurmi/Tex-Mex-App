@@ -2,13 +2,40 @@
     background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
   }
 
-  .NavBar {
+  .navLinks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    list-style: none;
-    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    top: 0;
+    /*width: 100%;*/
   }
+
+  .navLinks li {
+    float: center;
+    border-right: solid #bdc3c7 1px;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 80px;
+    padding-left: 100px;
+    color: white;
+  }
+  .Link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .Link:hover {
+    color: black;
+  }
+
   .itemName {
     font-size: 20px;
     font-family: Latha, "Tamil MN", serif;
@@ -82,7 +109,28 @@
     text-align: center;
   }
 
-  .address {
-    font-size: 20px;
+  .about {
     text-align: center;
+    background-image: url("https://ih0.redbubble.net/image.13753623.0267/flat,800x800,075,f.jpg");
+    font-family: monospace;
+    text-align: center;
+    font-size: 90px;
+    height: 1000px;
+    padding-top: 600px;
+    margin: 95px;
+    border: dotted 10px red;
+  }
+
+  .address {
+    font-size: 90px;
+  }
+
+  .contacts {
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 95px;
+    border: dotted 10px red;
   }

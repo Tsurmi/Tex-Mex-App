@@ -4,8 +4,8 @@ import DATA from './DATA';
 const About = (props) => {
 
   return (
-    <div>
-      <h1>Hello from About</h1>
+    <div className="about">
+      <h1>Coming Soon!</h1>
     </div>
   )
 }

@@ -3,12 +3,12 @@ import DATA from './DATA';
 
 const TexInfo = (props) => {
   return (
-    <div>
-      <h1> { props.street}</h1>
-      <p> { props.suite }</p>
-      <h3> { props.city }</h3>
-      <p> { props.state }</p>
-      <h5> { props.zip } </h5>
+    <div className="contacts">
+      <p  className="contactInfo">  street: { props.street}</p>
+      <p  className="contactInfo"> suite: { props.suite }</p>
+      <p  className="contactInfo"> city: { props.city }</p>
+      <p  className="contactInfo"> state: { props.state }</p>
+      <p  className="contactInfo"> zip: { props.zip } </p>
     </div>
   )
 }
